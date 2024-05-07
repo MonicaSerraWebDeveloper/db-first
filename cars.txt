@@ -1,0 +1,17 @@
+cars
+
+id - POWER KEY - INT
+brand - VARCHAR (15) - NOTNULL
+car_model - VARCHAR (20) - NOTNULL
+year - YEAR - NOTNULL
+vin - VARCHAR (17) - NOTNULL - UNIQUE
+body_color - VARCHAR (15) - NULL
+chilometers - MEDIUMINT - NOTNULL
+fuel - VARCHAR (25) - NOTNULL
+drive_system - VARCHAR (50) - NOTNULL
+power - SMALLINT - NULL
+capacity - SMALLINT - NULL
+condition - VARCHAR (25) - NULL
+status - VARCHAR (15) - NULL
+price - DECIMAL (8, 2) - NOTNULL
+note - VARCHAR (255) - NULL
