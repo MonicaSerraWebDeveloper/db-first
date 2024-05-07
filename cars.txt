@@ -1,8 +1,8 @@
 cars
 
 id - PRIMARY KEY - INT
-brand - VARCHAR (15) - NOTNULL
-car_model - VARCHAR (20) - NOTNULL
+brand - VARCHAR (15) - NOTNULL - INDEX
+car_model - VARCHAR (20) - NOTNULL - INDEX
 year - YEAR - NOTNULL
 vin - VARCHAR (17) - NOTNULL - UNIQUE
 body_color - VARCHAR (15) - NULL
