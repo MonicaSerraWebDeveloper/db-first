@@ -1,6 +1,6 @@
 cars
 
-id - POWER KEY - INT
+id - PRIMARY KEY - INT
 brand - VARCHAR (15) - NOTNULL
 car_model - VARCHAR (20) - NOTNULL
 year - YEAR - NOTNULL
