@@ -1,6 +1,6 @@
 cars
 
-id - PRIMARY KEY - INT
+id - PRIMARY KEY (NOTNULL, UNIQUE) - AUTO_INCREMENT - INT
 brand - VARCHAR (15) - NOTNULL - INDEX
 car_model - VARCHAR (20) - NOTNULL - INDEX
 year - YEAR - NOTNULL
@@ -12,6 +12,6 @@ drive_system - VARCHAR (50) - NOTNULL
 power - SMALLINT - NULL
 capacity - SMALLINT - NULL
 condition - VARCHAR (25) - NULL
-status - VARCHAR (15) - NULL
+status - TINYINT - NULL - DEFAULT(0)
 price - DECIMAL (8, 2) - NOTNULL
 note - VARCHAR (255) - NULL
